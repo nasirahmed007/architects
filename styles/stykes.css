@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#g{
+    font-size: 35px;
+}
+.first{
+    background: rgba(255, 144, 14, 0.1);
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1250px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.banner{
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.banner-title{
+    font-size: 64px;
+}
+.banner-text{
+    font-size: 16px;
+    color: #727272;
+    padding-top: 15px;
+}
+.explore{
+    width: 180px;
+height: 64px;
+background-color: orange;
+margin-top: 32px;
+color: #FFFFFF;
+font-size: 20px;
+}
+.first > img {
+    width: 100%;
+    max-width: 1250px;
+height: 600px;
+border-radius: 8px;
+align-items: center;
+object-fit: cover;
+margin-top: 120px;
+margin-left: 70px;
+margin-right: 70px;
+}
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}
+.deatil{
+    grid-row: span 2;
+    grid-column: span 2;
+    justify-content: center;
+    align-items: center;
+    margin: 250px 70px;
+}
+.photo-grid{
+    width: 100%;
+    max-width: 1250px;
+    margin: 75px 90px;
+}
+.h{
+    font-size: 45px;
+}
+.one{color: #727272;}
+.two{color: #131313;}
+.three{color: #FF900E;}
+.success{
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    max-width: 1200px;
+    height: 1000px;
+
+}
+.s-text{
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding-top: 50px;
+}
+.head{
+    font-size: 40px;
+}
+.padding{
+    padding-top: 25px;
+    color: #727272;
+}
+.s-img{
+    width: 600px;
+    height: 8000px;
+}
+.year{
+    width: 342px;
+    height: 200px;
+    color: #FFFFFF;
+    background-color: orange;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 8px;
+    margin-left: 600px;
+    margin-top: -300px;
+}
