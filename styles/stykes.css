@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+p{
+    color: #727272;
+}
 #g{
     font-size: 35px;
 }
@@ -37,7 +40,7 @@ nav > ul {
 }
 .banner-text{
     font-size: 16px;
-    color: #727272;
+    /* color: #727272; */
     padding-top: 15px;
 }
 .explore{
@@ -119,4 +122,11 @@ margin-right: 70px;
     border-radius: 8px;
     margin-left: 600px;
     margin-top: -300px;
+}
+.some{
+    margin: 120px 70px;
+}
+.d{
+    width: 542px;
+    height: 52px;
 }
