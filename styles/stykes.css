@@ -124,9 +124,44 @@ margin-right: 70px;
     margin-top: -300px;
 }
 .some{
-    margin: 120px 70px;
+    margin: 150px 70px;
 }
 .d{
     width: 542px;
     height: 52px;
 }
+.go{
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+}
+.achive{
+    border: 1px solid #FF900E;
+border-radius: 8px;
+width: 180px;
+height: 180px;
+text-align: center;
+padding: 35px 0;
+}
+.h-sponspors{
+    text-align: center;
+    margin-top: 180px;
+}
+.i-sponspors{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 55px;
+    width: 100%;
+}
+.foter{
+    width: 1440px;
+height: 100px;
+background: #FFF4E7;
+border-radius: 8px;
+text-align: center;
+margin-top: 150px;
+padding-top: 40px;
+color: #424242;
+}
+
