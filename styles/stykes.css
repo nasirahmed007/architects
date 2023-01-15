@@ -14,6 +14,7 @@ p{
 }
 .first{
     background: rgba(255, 144, 14, 0.1);
+    width: 100%;
 
 }
 nav{
@@ -55,7 +56,7 @@ nav > ul {
     font-size: 20px;
 }
 .first > img {
-    width: 100%;
+    width: 90%;
     max-width: 1250px;
     height: 600px;
     border-radius: 8px;
